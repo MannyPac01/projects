@@ -18,5 +18,12 @@ public class Main {
 
         // long has a width of 64
         long myLongValue = 100L;
+
+        int byteValue = 10;
+        short shortValue = 20;
+        int intValue = 50;
+        long eqVal = 50000 + 10 * (byteValue + shortValue + intValue);
+
+        System.out.println(eqVal);
     }
 }
